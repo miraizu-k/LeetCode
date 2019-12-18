@@ -108,11 +108,9 @@ dist
 .gitignore
 .idea/
 !/.gitignore
-1-50/1. Two Sum/ts.js
-1-50/1. Two Sum/ts.js.map
 package-lock.json
 composer.lock
 vendor/
-!/.phpunit.result.cache
+/.phpunit.result.cache
 venv/
-!/composer.phar
+/composer.phar
