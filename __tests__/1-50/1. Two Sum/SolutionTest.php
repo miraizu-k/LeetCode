@@ -1,6 +1,6 @@
 <?php
-include_once __DIR__ . '/../../vendor/autoload.php';
-include_once 'Solution.php';
+include_once __DIR__ . '/../../../vendor/autoload.php';
+include_once __DIR__.'/../../../1-50/1. Two Sum/Solution.php';
 
 use PHPUnit\Framework\TestCase;
 
