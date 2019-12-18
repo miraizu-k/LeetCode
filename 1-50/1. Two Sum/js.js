@@ -3,7 +3,7 @@
  * @param {number} target
  * @return {number[]}
  */
-let result = function (nums, target) {
+let twoSum = function (nums, target) {
   let result = [];
   let i = 0, iz = nums.length;
   for (; i < iz; i++) {
@@ -14,5 +14,8 @@ let result = function (nums, target) {
       break;
     }
   }
+  result.sort();
   return result;
 };
+
+export default twoSum;
