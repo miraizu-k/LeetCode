@@ -113,3 +113,4 @@ dist
 package-lock.json
 composer.lock
 vendor/
+!/.phpunit.result.cache
