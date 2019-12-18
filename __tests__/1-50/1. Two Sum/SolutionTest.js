@@ -13,7 +13,7 @@ describe('match test', () => {
     expect(twoSum([3, 1, 3], 6)).toEqual([0, 2]);
   });
 
-  it('t', () => {
+  it('exactly pattern', () => {
     expect(twoSum([3, 2, 4], 6)).toEqual([1, 2]);
   });
 });
