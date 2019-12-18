@@ -1,4 +1,4 @@
-import twoSum from "../1-50/1. Two Sum/js";
+import twoSum from "../../../1-50/1. Two Sum/Solution";
 
 describe('match test', () => {
   it('random pattern', () => {
