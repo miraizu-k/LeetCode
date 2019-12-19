@@ -3,6 +3,7 @@ include_once __DIR__ . '/../../../vendor/autoload.php';
 include_once __DIR__.'/../../../1-50/1. Two Sum/Solution.php';
 
 use PHPUnit\Framework\TestCase;
+use TwoSum\Solution;
 
 class SolutionTest extends TestCase
 {
