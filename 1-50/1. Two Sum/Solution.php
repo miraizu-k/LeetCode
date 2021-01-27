@@ -1,14 +1,17 @@
 <?php
+
 namespace TwoSum;
 
-class Solution {
+class Solution
+{
 
     /**
      * @param Integer[] $nums
      * @param Integer $target
      * @return Integer[]
      */
-    function twoSum($nums, $target) {
+    function twoSum(array $nums, int $target): array
+    {
         $indexes = array_flip($nums);
         foreach ($nums as $num) {
             $val = $target - $num;
